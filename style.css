@@ -4,6 +4,10 @@
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     font-family:'Poppins',sans-serif;
     background:#f4f7f4;
@@ -13,20 +17,22 @@ body{
 
 .navbar{
     background:linear-gradient(180deg,#07140c,#12301b);
-    height:110px;
+    height:80px;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:0 70px;
+    padding:0 50px;
     box-shadow:0 5px 15px rgba(0,0,0,.25);
+    position:sticky;
+    top:0;
+    z-index:1000;
 }
 
 /* Logo */
 
 .logo{
     color:white;
-    font-size:46px;
-    font-weight:700;
+    font-size:34px;
 }
 
 .logo span{
@@ -38,54 +44,82 @@ body{
 .navbar ul{
     list-style:none;
     display:flex;
-    gap:20px;
+    align-items:center;
+    gap:10px;
 }
 
 .navbar ul li{
-    display:flex;
+    position:relative;
 }
 
 .navbar a{
     text-decoration:none;
     color:white;
-    font-size:20px;
+    font-size:17px;
     font-weight:600;
-    padding:15px 22px;
-    border-radius:12px;
+    padding:12px 18px;
+    border-radius:10px;
+    display:block;
     transition:.3s;
 }
-
-.navbar a i{
-    margin-right:8px;
-}
-
-/* Botão ativo */
-
-.ativo{
-    background:#59c54d;
-}
-
-/* Hover */
 
 .navbar a:hover{
     background:rgba(255,255,255,.15);
 }
 
+.ativo{
+    background:#59c54d;
+}
+
+/* Submenu */
+
+.submenu{
+    display:none !important;
+    position:absolute;
+    top:52px;
+    left:0;
+    background:white;
+    border-radius:10px;
+    min-width:180px;
+    box-shadow:0 5px 20px rgba(0,0,0,.2);
+    overflow:hidden;
+}
+
+.dropdown:hover .submenu{
+    display:block !important;
+}
+
+.submenu li{
+    width:100%;
+}
+
+.submenu a{
+    color:#184a25;
+    padding:12px;
+}
+
+.submenu a:hover{
+    background:#dff5df;
+}
+
 /* Conteúdo */
+
+section{
+    padding:70px 12%;
+}
 
 .inicio{
     text-align:center;
-    margin-top:120px;
 }
 
 .inicio h2{
-    font-size:45px;
+    font-size:38px;
     color:#184a25;
 }
 
 .inicio p{
     margin-top:20px;
-    font-size:22px;
+    font-size:18px;
     color:#555;
 }
 
