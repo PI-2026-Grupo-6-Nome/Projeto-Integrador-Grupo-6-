@@ -134,3 +134,33 @@ h3{
     color:#2d6a4f;
 }
 
+.pagina-sobre section{
+    padding:25px 28px;
+}
+
+.pagina-sobre #sobre{
+    padding-bottom:10px;
+}
+
+.pagina-sobre #onde-vivemos{
+    padding-top:10px;
+}
+
+.pagina-sobre #sobre h2,
+.pagina-sobre #onde-vivemos h2{
+    margin-bottom:25px;
+    color:#184a25;
+}
+
+.pagina-sobre h3{
+    margin-bottom:10px;
+    color:#2d6a4f;
+}
+
+.pagina-sobre h4{
+    margin-bottom:3px;
+}
+
+.pagina-sobre p{
+    margin-bottom:5px;
+}
