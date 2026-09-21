@@ -134,35 +134,3 @@ h3{
     color:#2d6a4f;
 }
 
-/* Página da Eduarda */
-
-.pagina-eduarda section{
-    padding:25px 28px;
-}
-
-.pagina-eduarda #sobre{
-    padding-bottom:20px;
-}
-
-.pagina-eduarda #onde-vivemos{
-    padding-top:20px;
-}
-
-.pagina-eduarda #sobre h2,
-.pagina-eduarda #onde-vivemos h2{
-    margin-bottom:25px;
-    color:#184a25;
-}
-
-.pagina-eduarda h3{
-    margin-bottom:10px;
-    color:#2d6a4f;
-}
-
-.pagina-eduarda h4{
-    margin-bottom:3px;
-}
-
-.pagina-eduarda p{
-    margin-bottom:5px;
-}
