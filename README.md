@@ -1,4 +1,4 @@
-# Projeto-Integrador-Grupo-6-
+# Projeto-Integrador-CoiFrinhos
 <!DOCTYPE html>
 <html lang="en">
 <head>
