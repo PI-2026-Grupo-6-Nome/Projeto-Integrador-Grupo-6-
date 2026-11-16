@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CoIFinhos</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <h1 class="logo">Co<span>IF</span>inhos</h1>
+
+            <ul>
+
+                <!-- HOME -->
+                <li>
+                    <a href="index.html" class="ativo">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                </li>
+
+                <!-- ABOUT US -->
+                <li class="dropdown">
+
+                    <a href="#">
+                        <i class="fa-solid fa-users"></i>
+                        About Us
+                    </a>
+
+                    <ul class="submenu">
+
+                        <li>
+                            <a href="Bruno.html">Bruno</a>
+                        </li>
+
+                        <li>
+                            <a href="Camile.html">Camile</a>
+                        </li>
+
+                        <li>
+                            <a href="Eduarda.html">Eduarda</a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <!-- ECONOMY -->
+                <li>
+                    <a href="#economia">
+                        <i class="fa-solid fa-chart-line"></i>
+                        Economy
+                    </a>
+                </li>
+
+                <!-- CHRONICLE -->
+                <li>
+                    <a href="Cronica.html">
+                        <i class="fa-solid fa-book-open"></i>
+                        Chronicle
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HOME -->
+
+    <section class="inicio" id="inicio">
+
+        <h2>Welcome to CoIFinhos</h2>
+
+        <p class="objetivo">
+            Welcome to CoIFinhos! This website was developed with the goal of presenting information about economy and conscious consumption, showing how these topics are part of our daily lives and influence society.
+            <br><br>
+            Throughout the site, you will be able to learn a little more about our team, our region, and the importance of making responsible choices when consuming. We also aim to show how small everyday actions can contribute to a more balanced economy, valuing available resources and community development.
+            <br><br>
+            We believe that understanding the economy and practicing conscious consumption is essential to building a better future, starting with the actions we take today.
+        </p>
+
+    </section>
+
+
+    <!-- ECONOMY -->
+
+    <section id="economia">
+
+        <h2>Economy and Conscious Consumption</h2>
+
+        <p>
+            The economy is present in practically everything we do: in shopping, at work, in food production, and in the way we use our money. Therefore, understanding how it works and learning to consume consciously are important attitudes for society.
+            <br><br>
+            Conscious consumption consists of thinking before buying, evaluating the real need for a product, avoiding waste, and considering the impacts of our choices. This also involves saving water and energy, reusing materials, sorting waste, and supporting local producers and merchants.
+        </p>
+
+    </section>
+
+
+</body>
+
+</html>
