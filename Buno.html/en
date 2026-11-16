@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoIFinhos - Bruno</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pagina-sobre">
+
+    <header>
+
+        <nav class="navbar">
+
+            <h1 class="logo">Co<span>IF</span>inhos</h1>
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                </li>
+
+                <li class="dropdown">
+
+                    <a href="#">
+                        <i class="fa-solid fa-users"></i>
+                        About Us
+                    </a>
+
+                    <ul class="submenu">
+
+                        <li>
+                            <a href="Bruno.html">Bruno</a>
+                        </li>
+
+                        <li>
+                            <a href="Camile.html">Camile</a>
+                        </li>
+
+                        <li>
+                            <a href="Eduarda.html">Eduarda</a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li>
+                    <a href="index.html#economia">
+                        <i class="fa-solid fa-chart-line"></i>
+                        Economy
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Cronica.html">
+                        <i class="fa-solid fa-book-open"></i>
+                        Chronicle
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <section id="sobre">
+
+        <h2>About Us</h2>
+
+        <h3>Bruno</h3>
+
+        <h4>Birth</h4>
+
+        <p>
+            My name is Bruno Henrique Blodorn. I was born on January 31, 2011, in Toledo, 
+            at Centro Hospitalar do Oeste Ltda., weighing 1.567 kg. I was eagerly awaited by my 
+            entire family; I am Camile's twin brother and the youngest sibling in the family.
+        </p>
+
+
+        <h4>Educational Background</h4>
+
+        <p>
+            Since I was little, I have always studied in Maripá. My early years were spent at 
+            Escola Municipal Professor Leopoldo Kuroli, where I studied up to the 5th grade. 
+            Afterward, I went to Colégio Estadual PIO XII, where I completed my Elementary and 
+            Middle School education. Currently, I am attending High School at IFPR (Federal Institute 
+            of Paraná) in Toledo.
+        </p>
+
+
+        <h4>Historical Fact:</h4>
+
+        <p>
+            In 2011, the official release of Minecraft took place, becoming one of the most famous 
+            games in the world. The full version of the game was launched on November 18, 2011, during 
+            MineCon, after going through a period of development and test versions. The game stood 
+            out for allowing players to explore, build, and create their own worlds using blocks. 
+            Since then, Minecraft has become a global phenomenon and continues to be updated and 
+            played by millions of people.
+        </p>
+
+
+        <h4>Current Moment:</h4>
+
+        <p>
+            Currently, I am studying at the Federal Institute of Paraná (IFPR) in Toledo, where 
+            I have made several special friendships and am gaining knowledge in various fields, 
+            especially technology.
+        </p>
+
+
+        <h4>Future Perspectives:</h4>
+
+        <p>
+            I would like to go to college in the field of Communication, and if that doesn't 
+            work out, I plan to take the entrance exam to become an Army Officer.
+        </p>
+
+    </section>
+
+
+    <section id="onde-vivemos">
+
+        <h2>Where Do We Live?</h2>
+
+        <h4>Municipality - Maripá:</h4>
+
+        <p>
+            It originated on May 13, 1946, with the founding of Companhia Madeireira Rio Paraná S/A 
+            (MARIPÁ), and was emancipated from Palotina by State Law No. 9,226 on April 17, 1990. 
+            Maripá is well known for its festivals, the "Orchid Festival" (Festa das Orquídeas) and 
+            the "Tractor Drag Race" (Arrancadão de Tratores), attracting visitors from all over Brazil 
+            and other countries. Maripá is also appreciated for its agriculture and fertile soil.
+        </p>
+
+
+        <h4>Rural Community (Linha):</h4>
+
+        <p>
+            It is connected to the colonization and agricultural settlement process that began in the 
+            mid-20th century, characterized by the division of small rural properties and a strong 
+            presence of family farming and dairy cattle ranching.
+        </p>
+
+    </section>
+
+
+</body>
+
+</html>
