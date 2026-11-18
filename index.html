@@ -13,79 +13,61 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
 </head>
 
 <body>
 
-    <header>
+<header>
+    <nav class="navbar">
 
-        <nav class="navbar">
+        <h1 class="logo">Co<span>IF</span>inhos</h1>
 
-            <h1 class="logo">Co<span>IF</span>inhos</h1>
+        <ul>
+            <li>
+                <a href="index.html" class="ativo">
+                    <i class="fa-solid fa-house"></i>
+                    Início
+                </a>
+            </li>
 
-            <ul>
+            <li class="dropdown">
+                <a href="#">
+                    <i class="fa-solid fa-users"></i>
+                    Sobre Nós
+                </a>
 
-                <!-- INÍCIO -->
-                <li>
-                    <a href="index.html" class="ativo">
-                        <i class="fa-solid fa-house"></i>
-                        Início
-                    </a>
-                </li>
+                <ul class="submenu">
+                    <li><a href="Bruno.html">Bruno</a></li>
+                    <li><a href="Camile.html">Camile</a></li>
+                    <li><a href="Eduarda.html">Eduarda</a></li>
+                </ul>
+            </li>
 
-                <!-- SOBRE NÓS -->
-                <li class="dropdown">
+            <li>
+                <a href="#economia">
+                    <i class="fa-solid fa-chart-line"></i>
+                    Economia
+                </a>
+            </li>
 
-                    <a href="#">
-                        <i class="fa-solid fa-users"></i>
-                        Sobre Nós
-                    </a>
+            <li>
+                <a href="Cronica.html">
+                    <i class="fa-solid fa-book-open"></i>
+                    Crônica
+                </a>
+            </li>
+        </ul>
 
-                    <ul class="submenu">
+    </nav>
+</header>
 
-                        <li>
-                            <a href="Bruno.html">Bruno</a>
-                        </li>
-
-                        <li>
-                            <a href="Camile.html">Camile</a>
-                        </li>
-
-                        <li>
-                            <a href="Eduarda.html">Eduarda</a>
-                        </li>
-
-                    </ul>
-
-                </li>
-
-                <!-- ECONOMIA -->
-                <li>
-                    <a href="#economia">
-                        <i class="fa-solid fa-chart-line"></i>
-                        Economia
-                    </a>
-                </li>
-
-                <!-- CRÔNICA -->
-                <li>
-                    <a href="Cronica.html">
-                        <i class="fa-solid fa-book-open"></i>
-                        Crônica
-                    </a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-    </header>
-
-    
 <main>
 
     <!-- INTRODUÇÃO -->
     <section id="inicio" class="introducao">
+
         <h1>Bem-vindo ao CoIFinhos!</h1>
 
         <p>
@@ -101,47 +83,53 @@
             onde vivemos. Afinal, pequenas atitudes podem contribuir
             para uma comunidade mais consciente e um futuro melhor.
         </p>
+
     </section>
 
+    <!-- CARROSSEL -->
+    <section class="secao-carrossel">
 
-    
-<!-- CARROSSEL DE FOTOS -->
-<section class="secao-carrossel">
-    <h2>Conheça nosso projeto</h2>
+        <h2>Conheça nosso projeto</h2>
 
-    <div class="carousel">
-        <div class="carousel-track" id="track">
+        <div class="carousel">
 
-            <div class="carousel-slide">
-                <img src="imagens/fotomaripa.jpg" alt="Foto 1 do projeto">
+            <div class="carousel-track" id="track">
+
+                <div class="carousel-slide">
+                    <img src="imagens/fotomaripa.jpg" alt="Registro de Maripá">
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="imagens/fotonsr.jpg" alt="Registro de Nova Santa Rosa">
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="imagens/IMG_8883.jpg" alt="Registro do projeto CoIFinhos">
+                </div>
+
             </div>
 
-            <div class="carousel-slide">
-                <img src="imagens/fotonsr.jpg" alt="Foto 2 do projeto">
-            </div>
+            <button class="btn prev" id="prevBtn" aria-label="Foto anterior">
+                &#10094;
+            </button>
 
-            <div class="carousel-slide">
-                <img src="imagens/IMG_8883.jpg" alt="Foto 3 do projeto">
+            <button class="btn next" id="nextBtn" aria-label="Próxima foto">
+                &#10095;
+            </button>
+
+            <div class="indicators" id="indicators">
+                <button class="dot active" data-index="0" aria-label="Foto 1"></button>
+                <button class="dot" data-index="1" aria-label="Foto 2"></button>
+                <button class="dot" data-index="2" aria-label="Foto 3"></button>
             </div>
 
         </div>
 
-        <button class="btn prev" id="prevBtn">&#10094;</button>
-        <button class="btn next" id="nextBtn">&#10095;</button>
-
-        <div class="indicators" id="indicators">
-            <button class="dot active" data-index="0"></button>
-            <button class="dot" data-index="1"></button>
-            <button class="dot" data-index="2"></button>
-        </div>
-    </div>
-</section>
-
-
-
+    </section>
 
     <!-- ECONOMIA E CONSUMO CONSCIENTE -->
     <section id="economia" class="economia">
+
         <h2>Economia e Consumo Consciente</h2>
 
         <h3>O que é economia?</h3>
@@ -192,10 +180,14 @@
             Pequenas escolhas fazem diferença. Consumir com consciência
             é também cuidar da nossa comunidade e do futuro!
         </p>
+
     </section>
 
 </main>
 
+<footer>
+    <p>CoIFinhos — Projeto desenvolvido por estudantes do IFPR.</p>
+</footer>
 
-
-   
+</body>
+</html>
