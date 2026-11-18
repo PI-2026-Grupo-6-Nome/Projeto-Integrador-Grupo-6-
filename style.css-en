@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f7f4;
+}
+
+/* Navbar */
+
+.navbar {
+    background: linear-gradient(180deg, #07140c, #12301b);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo */
+
+.logo {
+    color: white;
+    font-size: 34px;
+}
+
+.logo span {
+    color: #72ff55;
+}
+
+/* Menu */
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px 18px;
+    border-radius: 10px;
+    display: block;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    background: rgba(255, 255, 255, .15);
+}
+
+.ativo {
+    background: #59c54d;
+}
+
+/* Submenu */
+
+.submenu {
+    display: none !important;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    background: white;
+    border-radius: 10px;
+    min-width: 180px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+
+.dropdown:hover .submenu {
+    display: block !important;
+}
+
+.submenu li {
+    width: 100%;
+}
+
+.submenu a {
+    color: #184a25;
+    padding: 12px;
+}
+
+.submenu a:hover {
+    background: #dff5df;
+}
+
+/* Content */
+
+section {
+    padding: 70px 12%;
+}
+
+.inicio {
+    text-align: center;
+}
+
+.inicio h2 {
+    font-size: 38px;
+    color: #184a25;
+}
+
+.inicio p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+#sobre h2,
+#economia h2 {
+    margin-bottom: 30px;
+    color: #184a25;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #2d6a4f;
+}
+
+.pagina-sobre section {
+    padding: 25px 28px;
+}
+
+.pagina-sobre #sobre {
+    padding-bottom: 10px;
+}
+
+.pagina-sobre #onde-vivemos {
+    padding-top: 10px;
+}
+
+.pagina-sobre #sobre h2,
+.pagina-sobre #onde-vivemos h2 {
+    margin-bottom: 25px;
+    color: #184a25;
+}
+
+.pagina-sobre h3 {
+    margin-bottom: 10px;
+    color: #2d6a4f;
+}
+
+.pagina-sobre h4 {
+    margin-bottom: 3px;
+}
+
+.pagina-sobre p {
+    margin-bottom: 5px;
+}
+
+.objetivo {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: justify;
+    line-height: 1.8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+/* Chronicle Section */
+
+#cronica {
+    padding: 70px 12%;
+}
+
+#cronica h2 {
+    margin-bottom: 30px;
+    color: #184a25;
+}
+
+.conteudo-cronica {
+    background: transparent;
+    padding: 20px 0;
+    border-radius: 0;
+    box-shadow: none;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.conteudo-cronica h3 {
+    color: #184a25;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.conteudo-cronica p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: justify;
+}
