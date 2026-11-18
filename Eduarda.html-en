@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoIFinhos - Eduarda</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pagina-sobre">
+
+    <header>
+
+        <nav class="navbar">
+
+            <h1 class="logo">Co<span>IF</span>inhos</h1>
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                </li>
+
+                <li class="dropdown">
+
+                    <a href="#">
+                        <i class="fa-solid fa-users"></i>
+                        About Us
+                    </a>
+
+                    <ul class="submenu">
+
+                        <li>
+                            <a href="Bruno.html">Bruno</a>
+                        </li>
+
+                        <li>
+                            <a href="Camile.html">Camile</a>
+                        </li>
+
+                        <li>
+                            <a href="Eduarda.html">Eduarda</a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li>
+                    <a href="index.html#economia">
+                        <i class="fa-solid fa-chart-line"></i>
+                        Economy
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Cronica.html">
+                        <i class="fa-solid fa-book-open"></i>
+                        Chronicle
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <section id="sobre">
+
+        <h2>About Us</h2>
+
+        <h3>Eduarda</h3>
+
+        <h4>Birth</h4>
+
+        <p>
+            Eduarda was born on the morning of June 14, 2010, a
+            Monday, in Umuarama-PR, at the Nossa Senhora Aparecida Hospital.
+            I remember the doctors were betting on how much she would weigh —
+            the one who guessed over 3kg was right! It was a very emotional day, full of
+            joy for the whole family.
+        </p>
+
+
+        <h4>Educational Background</h4>
+
+        <p>
+            My educational journey began in Céu Azul, at São
+            Cristóvão School, where I studied from the 1st to the 5th grade. Later, I moved to
+            Nova Santa Rosa and continued my studies at Marechal Gaspar Dutra
+            State College, where I completed my middle school education.
+            Currently, I am in the 1st year of high school at IFPR in Toledo,
+            in a new phase of my school life. Changing schools
+            brought new challenges and experiences, contributing to my
+            growth and the construction of my path so far.
+        </p>
+
+
+        <h4>Historical Fact:</h4>
+
+        <p>
+            A landmark event of 2010 was the World Cup,
+            held in South Africa between June and July of that year.
+            It was the first time the African continent hosted a World
+            Cup. The Spanish national team was the champion, winning its
+            first world title after defeating the Netherlands in the final.
+        </p>
+
+
+        <h4>Current Moment:</h4>
+
+        <p>
+            Currently, I am in the 1st year of high school at IFPR,
+            which has been a huge privilege. I am discovering new
+            interests, learning new things, and thinking more and more
+            about my future.
+        </p>
+
+
+        <h4>Future Perspectives:</h4>
+
+        <p>
+            I wish to finish high school and then enter a
+            college in the field of Marketing. I intend to specialize in this
+            area and build a career that allows me to work with
+            creativity and what I love.
+        </p>
+
+    </section>
+
+
+    <section id="onde-vivemos">
+
+        <h2>Where We Live</h2>
+
+        <h4>Municipality - Nova Santa Rosa:</h4>
+
+        <p>
+            Nova Santa Rosa is a municipality located in western Paraná and
+            has a history marked by the colonization of families who came
+            mainly from Rio Grande do Sul, many of them of Germanic
+            origin. Colonization began in 1953 and the municipality
+            achieved its political-administrative emancipation in 1976.
+            One of the cultural characteristics of the municipality is the German influence,
+            present in customs, traditions, and even the language, which is still
+            preserved by some families. Nova Santa Rosa also has the Dom Severino Kögl
+            Municipal Museum, created to preserve objects, photographs,
+            and documents related to the history of the early settlers.
+        </p>
+
+
+        <h4>Neighborhood</h4>
+
+        <p>
+            I live in the Cidade Nova neighborhood. It is a quiet region of Nova Santa Rosa,
+            consisting mainly of houses and residential streets. It is a simple neighborhood,
+            where many people know each other and interact day by day.
+        </p>
+
+    </section>
+
+
+</body>
+
+</html>
