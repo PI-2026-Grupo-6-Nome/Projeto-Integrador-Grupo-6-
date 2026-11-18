@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoIFinhos - Camile</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pagina-sobre">
+
+    <header>
+
+        <nav class="navbar">
+
+            <h1 class="logo">Co<span>IF</span>inhos</h1>
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                </li>
+
+                <li class="dropdown">
+
+                    <a href="#">
+                        <i class="fa-solid fa-users"></i>
+                        About Us
+                    </a>
+
+                    <ul class="submenu">
+
+                        <li>
+                            <a href="Bruno.html">Bruno</a>
+                        </li>
+
+                        <li>
+                            <a href="Camile.html">Camile</a>
+                        </li>
+
+                        <li>
+                            <a href="Eduarda.html">Eduarda</a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li>
+                    <a href="index.html#economia">
+                        <i class="fa-solid fa-chart-line"></i>
+                        Economy
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="Cronica.html">
+                        <i class="fa-solid fa-book-open"></i>
+                        Chronicle
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <section id="sobre">
+
+        <h2>About Us</h2>
+
+        <h3>Camile</h3>
+
+        <h4>Birth</h4>
+
+        <p>
+                Camile Vitória Blodorn was born at 5:50 PM on January 31, 2011, at the Centro Hospitalar
+                do Oeste Ltda, along with her twin brother Bruno Henrique Blodorn. She was born
+                measuring 42 cm and weighing 1.675 kg. It was a moment of great joy and
+                concern to see how small these two little angels were; they were
+                so tiny that both of them fit into a single crib. Her older sister,
+                Isabel, was eager to see her two little siblings, and she was
+                absolute sure there would be two and that they would be a boy and a girl.
+                They brought a lot of joy to the whole family and to the
+                municipality, being one of the first sets of twin boys and girls.
+        </p>
+
+
+        <h4>Educational Background</h4>
+
+        <p>
+                I began my studies at age four at the Leopoldo Kuroli Municipal School,
+                where I studied until the 5th grade of elementary school and finished
+                in 2022. In 2023, I enrolled at the PIO XII State College, where I studied until the
+                9th grade. Now, I have started High School at IFPR - Federal Institute of Paraná,
+                in Toledo, an extension of the Assis Chateaubriand Campus.
+        </p>
+
+
+        <h4>Historical Fact:</h4>
+
+        <p>
+                My mother tells me that when I was born, there was a very intense cold spell in
+                June that affected our region, recording minimum temperatures close to
+                -3°C with heavy frosts, which caused one of the coldest
+                mornings in recent years in the state.
+        </p>
+
+
+        <h4>Current Moment:</h4>
+
+        <p>
+                I believe I have evolved my knowledge and discovered a new area
+                of interest. Being part of IFPR is a great opportunity,
+                allowing me to meet new paths and people.
+        </p>
+
+
+        <h4>Future Perspectives:</h4>
+
+        <p>
+                I wish to finish high school and soon enroll in a Performing Arts
+                college, where I will specialize in this field.
+        </p>
+
+    </section>
+
+
+    <section id="onde-vivemos">
+
+        <h2>Where We Live</h2>
+
+        <h4>Municipality - Maripá:</h4>
+
+        <p>
+                    It originated on May 13, 1946, with the founding of Companhia Madeireira
+                    Rio Paraná S/A (MARIPÁ). It was emancipated from Palotina by State Law
+                    No. 9,226 on April 17, 1990.
+                    Maripá is known for its festivals, such as the "Orchid Festival" and the "Tractor Pulling
+                    Competition" (Arrancadão de Tratores), which attract people from all corners of Brazil and other
+                    countries to participate. Maripá is also appreciated for its agriculture
+                    and fertile soil.
+        </p>
+
+
+        <h4>Rural Line:</h4>
+
+        <p>
+                 It is linked to the colonization and agricultural development process
+                    begun in the mid-20th century, marked by the division of small
+                    rural properties and the strong presence of family farming and
+                    dairy cattle ranching.
+        </p>
+
+    </section>
+
+</body>
+
+</html>
