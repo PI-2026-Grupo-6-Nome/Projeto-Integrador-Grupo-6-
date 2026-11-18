@@ -110,23 +110,26 @@ section {
 
 /* INTRODUÇÃO */
 .introducao {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 40px auto;
-    padding: 40px 20px;
+    padding: 40px 30px;
     text-align: center;
 }
 
 .introducao h1 {
     color: #285c3b;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-size: 34px;
 }
 
 .introducao p {
+    max-width: 800px;
+    margin: 0 auto 18px;
     line-height: 1.8;
-    margin-bottom: 15px;
     font-size: 16px;
+    text-align: justify;
 }
+
 
 /* CARROSSEL */
 .secao-carrossel {
