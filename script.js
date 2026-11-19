@@ -7,6 +7,8 @@ const dots = document.querySelectorAll(".dot");
 let indiceAtual = 0;
 const totalFotos = track.children.length;
 
+let intervalo;
+
 function atualizarCarrossel() {
     track.style.transform = `translateX(-${indiceAtual * 100}%)`;
 
@@ -15,7 +17,8 @@ function atualizarCarrossel() {
     });
 }
 
-nextBtn.addEventListener("click", function() {
+// Próxima foto
+function proximaFoto() {
     indiceAtual++;
 
     if (indiceAtual >= totalFotos) {
@@ -23,9 +26,10 @@ nextBtn.addEventListener("click", function() {
     }
 
     atualizarCarrossel();
-});
+}
 
-prevBtn.addEventListener("click", function() {
+// Foto anterior
+function fotoAnterior() {
     indiceAtual--;
 
     if (indiceAtual < 0) {
@@ -33,11 +37,38 @@ prevBtn.addEventListener("click", function() {
     }
 
     atualizarCarrossel();
+}
+
+// Botões
+nextBtn.addEventListener("click", () => {
+    proximaFoto();
+    reiniciarAutomatico();
 });
 
+prevBtn.addEventListener("click", () => {
+    fotoAnterior();
+    reiniciarAutomatico();
+});
+
+// Bolinhas
 dots.forEach((dot, index) => {
-    dot.addEventListener("click", function() {
+    dot.addEventListener("click", () => {
         indiceAtual = index;
         atualizarCarrossel();
+        reiniciarAutomatico();
     });
 });
+
+// Passagem automática
+function iniciarAutomatico() {
+    intervalo = setInterval(proximaFoto, 4000);
+}
+
+// Reinicia o intervalo após interação manual
+function reiniciarAutomatico() {
+    clearInterval(intervalo);
+    iniciarAutomatico();
+}
+
+iniciarAutomatico();
+
