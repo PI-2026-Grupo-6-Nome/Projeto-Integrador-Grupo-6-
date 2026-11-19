@@ -488,4 +488,87 @@ footer {
     footer {
         font-size: 12px;
     }
+} 
+
+
+/* BOTÃO DE MODO NOTURNO */
+.tema-btn {
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    color: white;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s;
+    flex-shrink: 0;
 }
+
+.tema-btn:hover {
+    background: #59c54d;
+    border-color: #59c54d;
+}
+
+/* TRANSIÇÃO ENTRE OS TEMAS */
+body,
+section,
+.introducao,
+.economia,
+.conteudo-cronica,
+.pagina-sobre {
+    transition: background-color .3s, color .3s;
+}
+
+/* MODO NOTURNO */
+body.dark-mode {
+    background: #142019;
+    color: #e0e9e1;
+}
+
+.dark-mode .introducao h1,
+.dark-mode .secao-carrossel h2,
+.dark-mode .economia h2,
+.dark-mode .economia h3,
+.dark-mode .frase-final,
+.dark-mode #cronica h2,
+.dark-mode .conteudo-cronica h3,
+.dark-mode .pagina-sobre h2,
+.dark-mode .pagina-sobre h3,
+.dark-mode .pagina-sobre h4 {
+    color: #a8dfa8;
+}
+
+.dark-mode .introducao p,
+.dark-mode .economia p,
+.dark-mode .pagina-sobre p,
+.dark-mode .conteudo-cronica p {
+    color: #d0d9d1;
+}
+
+.dark-mode .submenu {
+    background: #26382d;
+}
+
+.dark-mode .navbar .submenu a {
+    color: #d7ead8;
+}
+
+.dark-mode .navbar .submenu a:hover {
+    background: #36583e;
+}
+
+.dark-mode .carousel {
+    background: #26382d;
+}
+
+.dark-mode footer {
+    background: #09140d;
+    color: #e0e9e1;
+}
+
+/* PÁGINAS INDIVIDUAIS */
+.dark-mode .pagina-sobre {
+    color: #e0e9e1;
+}
+
