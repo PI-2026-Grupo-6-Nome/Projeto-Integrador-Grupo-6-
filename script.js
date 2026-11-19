@@ -72,3 +72,44 @@ function reiniciarAutomatico() {
 
 iniciarAutomatico();
 
+
+// MODO NOTURNO
+
+const temaBtn = document.getElementById("tema-btn");
+const temaSalvo = localStorage.getItem("tema");
+
+// Aplica o tema salvo
+if (temaSalvo === "escuro") {
+    document.body.classList.add("dark-mode");
+}
+
+// Configura o botão, quando existir
+if (temaBtn) {
+    const iconeTema = temaBtn.querySelector("i");
+
+    function atualizarIcone() {
+        const modoEscuro = document.body.classList.contains("dark-mode");
+
+        iconeTema.className = modoEscuro
+            ? "fa-solid fa-sun"
+            : "fa-solid fa-moon";
+
+        temaBtn.setAttribute(
+            "aria-label",
+            modoEscuro ? "Ativar modo claro" : "Ativar modo noturno"
+        );
+    }
+
+    atualizarIcone();
+
+    temaBtn.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+
+        const modoEscuro = document.body.classList.contains("dark-mode");
+
+        localStorage.setItem("tema", modoEscuro ? "escuro" : "claro");
+
+        atualizarIcone();
+    });
+}
+
