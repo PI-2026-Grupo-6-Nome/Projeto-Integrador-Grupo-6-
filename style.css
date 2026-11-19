@@ -358,7 +358,31 @@ footer {
     font-size: 14px;
 }
 
+
 /* RESPONSIVIDADE */
+
+/* Ajustes para telas médias */
+@media (max-width: 900px) {
+
+    .navbar {
+        padding: 12px 20px;
+    }
+
+    .navbar a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 50px 7%;
+    }
+
+    .carousel {
+        height: 380px;
+    }
+}
+
+/* Ajustes para celulares e tablets */
 @media (max-width: 768px) {
 
     .navbar {
@@ -379,35 +403,59 @@ footer {
 
     .navbar a {
         font-size: 13px;
-        padding: 10px;
+        padding: 9px;
     }
 
-    .carousel {
-        height: 280px;
+    .introducao {
+        margin: 20px auto;
+        padding: 30px 20px;
     }
 
     .introducao h1 {
-        font-size: 27px;
+        font-size: clamp(25px, 5vw, 32px);
+    }
+
+    .introducao p,
+    .economia p {
+        font-size: 15px;
+    }
+
+    .secao-carrossel {
+        padding: 20px 7%;
     }
 
     .secao-carrossel h2 {
         font-size: 23px;
     }
 
-    .pagina-sobre section,
-    section {
-        padding: 35px 7%;
+    .carousel {
+        height: 300px;
     }
 
     .economia h2 {
         font-size: 25px;
     }
+
+    .pagina-sobre section,
+    section {
+        padding: 35px 7%;
+    }
 }
 
+/* Ajustes para celulares pequenos */
 @media (max-width: 450px) {
 
+    .logo {
+        font-size: 27px;
+    }
+
+    .navbar a {
+        font-size: 12px;
+        padding: 8px;
+    }
+
     .carousel {
-        height: 220px;
+        height: 230px;
     }
 
     .carousel .btn {
@@ -416,9 +464,20 @@ footer {
         font-size: 16px;
     }
 
-    .navbar a {
+    .introducao h1 {
+        font-size: 25px;
+    }
+
+    .introducao p,
+    .economia p {
+        font-size: 14px;
+    }
+
+    .economia h2 {
+        font-size: 23px;
+    }
+
+    footer {
         font-size: 12px;
-        padding: 8px;
     }
 }
-
