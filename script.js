@@ -61,7 +61,7 @@ dots.forEach((dot, index) => {
 
 // Passagem automática
 function iniciarAutomatico() {
-    intervalo = setInterval(proximaFoto, 4000);
+    intervalo = setInterval(proximaFoto, 3000);
 }
 
 // Reinicia o intervalo após interação manual
