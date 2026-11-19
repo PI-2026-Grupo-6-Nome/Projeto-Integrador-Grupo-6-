@@ -177,18 +177,23 @@ section {
 
 /* AJUSTE INDIVIDUAL DAS FOTOS */
 
-/* Foto de vocês três na escola */
+/* Foto consumo consciente */
 .carousel-slide:nth-child(1) img {
-    object-position: center 65%;
+    object-position: center;
+}  
+
+/* Foto nós três */
+.carousel-slide:nth-child(2) img {
+    object-position: center 35%;
 }
 
-/* Foto de Maripá */
-.carousel-slide:nth-child(2) img {
+/* Foto Maripá */
+.carousel-slide:nth-child(3) img {
     object-position: center;
 }
 
-/* Foto de Nova Santa Rosa */
-.carousel-slide:nth-child(3) img {
+/* Foto Nova Santa Rosa */
+.carousel-slide:nth-child(4) img {
     object-position: center 85%;
 }  
 
