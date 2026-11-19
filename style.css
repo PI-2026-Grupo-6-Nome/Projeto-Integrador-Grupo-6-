@@ -576,20 +576,50 @@ body.dark-mode {
 
 .idioma {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 7px;
-    margin-left: 10px;
+    gap: 4px;
+    margin-left: 8px;
     color: white;
-    font-weight: 600;
+    font-size: 12px;
     white-space: nowrap;
 }
 
 .idioma a {
     color: white;
     text-decoration: none;
-    padding: 7px 10px;
-    border-radius: 8px;
-    font-size: 14px;
+    padding: 4px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.idioma a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.idioma a.idioma-ativo {
+    background: white;
+    color: #12301b;
+}/* BOTÃO DE IDIOMA */
+
+.idioma {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin-left: 8px;
+    color: white;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.idioma a {
+    color: white;
+    text-decoration: none;
+    padding: 4px 5px;
+    border-radius: 5px;
+    font-size: 12px;
     transition: 0.3s;
 }
 
@@ -601,4 +631,33 @@ body.dark-mode {
     background: white;
     color: #12301b;
 }
+/* BOTÃO DE IDIOMA */
 
+.idioma {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin-left: 8px;
+    color: white;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.idioma a {
+    color: white;
+    text-decoration: none;
+    padding: 4px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.idioma a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.idioma a.idioma-ativo {
+    background: white;
+    color: #12301b;
+}
