@@ -324,6 +324,8 @@ section {
     text-align: justify;
 }
 
+
+
 /* CRÔNICA */
 #cronica {
     padding: 70px 12%;
@@ -343,7 +345,7 @@ section {
 .conteudo-cronica h3 {
     color: #184a25;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
@@ -352,6 +354,7 @@ section {
     font-size: 16px;
     line-height: 1.9;
     text-align: justify;
+    margin-bottom: 22px;
 }
 
 /* RODAPÉ */
