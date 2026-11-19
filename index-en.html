@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CoIFinhos</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <h1 class="logo">Co<span>IF</span>inhos</h1>
+
+        <ul>
+            <li>
+                <a href="index-en.html" class="ativo">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </a>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">
+                    <i class="fa-solid fa-users"></i>
+                    About Us
+                </a>
+
+                <ul class="submenu">
+                    <li><a href="Bruno-en.html">Bruno</a></li>
+                    <li><a href="Camile-en.html">Camile</a></li>
+                    <li><a href="Eduarda-en.html">Eduarda</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#economia">
+                    <i class="fa-solid fa-chart-line"></i>
+                    Economy
+                </a>
+            </li>
+
+            <li>
+                <a href="Cronica-en.html">
+                    <i class="fa-solid fa-book-open"></i>
+                    Chronicle
+                </a>
+            </li>
+
+            <li>
+                <a href="index.html">PT</a> |
+                <a href="index-en.html" class="ativo">EN</a>
+            </li>
+        </ul>
+
+        <button id="tema-btn" class="tema-btn" aria-label="Enable dark mode">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+    </nav>
+</header>
+
+<main>
+
+    <!-- INTRODUCTION -->
+    <section id="inicio" class="introducao">
+
+        <h1>Welcome to CoIFinhos!</h1>
+
+        <p>
+            CoIFinhos is a project developed by students from the
+            Federal Institute of Paraná (IFPR), aiming to highlight
+            the importance of economics and conscious consumption
+            in our community.
+        </p>
+
+        <p>
+            Here, we want to share information, ideas, and reflections
+            on how our consumption choices influence the place
+            where we live. After all, small actions can contribute
+            to a more conscious community and a better future.
+        </p>
+
+    </section>
+
+    <!-- CAROUSEL -->
+    <section class="secao-carrossel">
+
+        <h2>Get to Know Our Project</h2>
+
+        <div class="carousel">
+
+            <div class="carousel-track" id="track">
+
+                <div class="carousel-slide">
+                    <img src="imagens/1000054167.jpg" alt="Conscious consumption project">
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="imagens/IMG_8883.jpeg" alt="CoIFinhos project record">
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="imagens/fotomaripa.jpg" alt="Maripá">
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="imagens/fotonsr.webp" alt="Nova Santa Rosa">
+                </div>
+
+            </div>
+
+            <button class="btn prev" id="prevBtn" aria-label="Previous photo">
+                &#10094;
+            </button>
+
+            <button class="btn next" id="nextBtn" aria-label="Next photo">
+                &#10095;
+            </button>
+
+            <div class="indicators" id="indicators">
+                <button class="dot active" data-index="0" aria-label="Photo 1"></button>
+                <button class="dot" data-index="1" aria-label="Photo 2"></button>
+                <button class="dot" data-index="2" aria-label="Photo 3"></button>
+                <button class="dot" data-index="3" aria-label="Photo 4"></button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ECONOMY AND CONSCIOUS CONSUMPTION -->
+    <section id="economia" class="economia">
+
+        <h2>Economy and Conscious Consumption</h2>
+
+        <h3>What is economics?</h3>
+
+        <p>
+            Economics is part of our daily lives and involves how we
+            use resources, produce, buy, and consume goods and
+            services. It is also connected to the development
+            of cities and people's quality of life.
+        </p>
+
+        <h3>What is conscious consumption?</h3>
+
+        <p>
+            Conscious consumption means thinking before buying,
+            considering our needs, and understanding the impact
+            of our choices. Actions such as avoiding waste,
+            reusing materials, and supporting local products
+            are ways to encourage more responsible consumption.
+        </p>
+
+        <h3>The local economy in our region</h3>
+
+        <p>
+            In municipalities such as Nova Santa Rosa and Maripá,
+            agriculture plays an important role in the local economy.
+            Agricultural production, together with local shops
+            and small businesses, drives the region's economy
+            and supports many families.
+        </p>
+
+        <p>
+            Supporting local farmers and shop owners, avoiding
+            food waste, and making responsible choices are ways
+            to strengthen our community's economy.
+        </p>
+
+        <h3>How can we make a difference?</h3>
+
+        <p>
+            We can start with simple actions: planning our
+            purchases, making better use of food, reusing
+            materials whenever possible, saving resources,
+            and choosing local businesses.
+        </p>
+
+        <p class="frase-final">
+            Small choices make a difference. Conscious consumption
+            is also a way of taking care of our community and our future!
+        </p>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>CoIFinhos — A project developed by IFPR students.</p>
+</footer>
+
+</body>
+</html>
